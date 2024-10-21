@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <>
-    <ToastContainer position="top-center" />
+    <ToastContainer position="bottom-center" stacked />
       <div className='w-full h-screen bg-zinc-950 text-white flex items-center justify-center'>
         <div className='bg-zinc-900 py-5 px2 rounded-xl flex flex-col items-center justify-center gap-10'>
           <h1 className='text-3xl font-semibold px-6'>PassWord Generator</h1>
